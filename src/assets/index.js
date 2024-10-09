@@ -1,5 +1,7 @@
 import logo from "./logo.svg";
+import newlogo from "./newlogo.png"
 import backend from "./backend.png";
+import frontend from "./frontend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -25,6 +27,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import imaralogo from "./company/imaralogo.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -33,6 +36,7 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
+  frontend,
   creator,
   mobile,
   web,
@@ -59,4 +63,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  newlogo,
+  imaralogo,
 };
