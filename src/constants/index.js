@@ -26,6 +26,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    bustracker,
+    portfolioimg,
   } from "../assets";
   
   export const navLinks = [
@@ -124,12 +126,21 @@ import {
       company_name: "Imara Software Solutions",
       icon: imaralogo,
       iconBg: "#E6DEDD",
-      date: "March 2020 - April 2021",
+      date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        // "Developing and maintaining web applications using React.js and other related technologies.",
+        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        // "Implementing responsive design and ensuring cross-browser compatibility.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
+
+
+      "Designed and developed Flutter-based UI for Sales Force Automation (SFA) and Retail Distribution (RD) mobile apps, improving user satisfaction by 45%.",
+
+      "Contributed to API integration for the Flutter POS app, enhancing data flow and increasing operational efficiency by 15%.",
+
+      "Delivered scalable solutions on time, ensuring high-quality outputs aligned with project requirements.",
+
+      "Collaborated closely with backend teams and stakeholders to create seamless, integrated user experiences.",
       ],
     },
     {
@@ -137,27 +148,19 @@ import {
       company_name: "Imara Software Solutions",
       icon: imaralogo,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "March 2020 - April 2021 ",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+
+      "Developed a PHP and cURL-powered data scraping tool, automating extraction from over 10 websites.",
+
+      "Built and maintained a dashboard with full CRUD operations, reducing data processing time and streamlining data management workflows.",
+
+      "Implemented responsive, mobile-first UIs using Bootstrap, enhancing website performance and user retention.",
+
+      "Participated in code reviews and contributed to the development of clean, maintainable code for web projects.",
       ],
     },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+  
     // {
     //   title: "Full stack Developer",
     //   company_name: "Meta",
@@ -202,46 +205,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Bus Tracker",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "Flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Provider",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Node.js",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: bustracker,
+      source_code_link: "https://github.com/smThilshan/bus-tracker-admin.git",
     },
     {
-      name: "Job IT",
+      name: "React Portfolio",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Three js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "3D",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: portfolioimg,
+      source_code_link: "https://github.com/smThilshan/my-3d-portfolio.git",
+    },
+    {
+      name: "SFA & RD App",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "Flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Provider",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Laravel",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bustracker,
+      source_code_link: "https://github.com/smThilshan/bus-tracker-admin.git",
     },
     {
       name: "Trip Guide",
@@ -264,6 +288,49 @@ import {
       image: tripguide,
       source_code_link: "https://github.com/",
     },
+    {
+      name: "Tooth Care",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Contacts Buddy",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };

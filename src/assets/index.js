@@ -32,6 +32,8 @@ import imaralogo from "./company/imaralogo.jpg";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import bustracker from "./bustracker.jpg";
+import portfolioimg from "./portfolioimg.jpg";
 
 export {
   logo,
@@ -65,4 +67,6 @@ export {
   tripguide,
   newlogo,
   imaralogo,
+  bustracker,
+  portfolioimg,
 };
