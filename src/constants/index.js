@@ -29,6 +29,9 @@ import {
     bustracker,
     portfolioimg,
     sfaandrd,
+    php,
+    flutter,
+    python,
   } from "../assets";
   
   export const navLinks = [
@@ -80,16 +83,16 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Php",
+      icon: php,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Flutter",
+      icon: flutter,
     },
     {
       name: "Tailwind CSS",
@@ -108,17 +111,19 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
+
+       {
+      name: "Python",
+      icon: python,
     },
+
   ];
   
   const experiences = [
@@ -129,11 +134,6 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        // "Developing and maintaining web applications using React.js and other related technologies.",
-        // "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        // "Implementing responsive design and ensuring cross-browser compatibility.",
-        // "Participating in code reviews and providing constructive feedback to other developers.",
-
 
       "Designed and developed Flutter-based UI for Sales Force Automation (SFA) and Retail Distribution (RD) mobile apps, improving user satisfaction by 45%.",
 
@@ -162,19 +162,6 @@ import {
       ],
     },
   
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
@@ -266,7 +253,7 @@ import {
         },
       ],
       image: sfaandrd,
-      // source_code_link: "https://github.com/smThilshan/bus-tracker-admin.git",
+      source_code_link: "https://github.com/smThilshan/",
     },
     {
       name: "Mental Health",
