@@ -34,6 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import bustracker from "./bustracker.jpg";
 import portfolioimg from "./portfolioimg.jpg";
+import sfaandrd from "./sfaandrd.jpg";
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   imaralogo,
   bustracker,
   portfolioimg,
+  sfaandrd,
 };
